@@ -31,11 +31,11 @@ const social = [
         icon: 'linkedin',
         link: 'https://www.linkedin.com/company/once-ui/',
     },
-    {
-        name: 'X',
-        icon: 'x',
-        link: '',
-    },
+    // {
+    //     name: 'X',
+    //     icon: 'x',
+    //     link: '',
+    // },
     {
         name: 'Email',
         icon: 'email',
@@ -128,6 +128,10 @@ const about = {
         display: true, // set to false to hide this section
         title: 'Technical skills',
         skills: [
+            // {
+            //     title: 'Full-Stack Development',
+            //     description: <>'Proficient in creating full-stack applications using React Native, Express.js, MongoDB, SQL.'</>
+            // }
             {
                 title: 'Figma',
                 description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
