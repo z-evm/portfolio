@@ -15,7 +15,7 @@ const person = {
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I occasionally share insights on web3 trends, technology, and design.</>
 }
 
 const social = [
@@ -47,8 +47,10 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Full-Stack Developer</>,
+    subline: <>I'm Zac, a passionate full-stack developer dedicated to building innovative solutions. I'm exploring<br/>
+    opportunities in decentralized technology, cloud computing, <br/>
+    and cybersecurity while continously growing my skills and knowledge.</>
 }
 
 const about = {
@@ -63,16 +65,16 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>I'm an Australian junior full-stack developer passionate about solving complex challenges and crafting intuitive digital solutions. My interests include web3, cloud computing, and cybersecurity.</>
     },
     work: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
@@ -109,12 +111,16 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Ultimo TAFE',
+                description: <>Certificate III in Web Development - Gained essential skills in creating functional and responsive websites.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Petersham TAFE',
+                description: <>Certificate IV in Programming - Built foundational coding and problem-solving skills.</>,
+            },
+            {
+                name: 'Petersham TAFE',
+                description: <>Diploma of Advanced Programming - Focused on modern development practices and technologies.</>
             }
         ]
     },

@@ -7,6 +7,7 @@ import { Footer, Header, RouteGuard } from "@/components";
 import { baseURL, effects, style } from '@/app/resources'
 
 import { Inter } from 'next/font/google'
+//import { Roboto_Mono } from 'next/font/google';
 import { Source_Code_Pro } from 'next/font/google';
 
 import { NextIntlClientProvider } from 'next-intl';
@@ -54,6 +55,12 @@ const primary = Inter({
 	subsets: ['latin'],
 	display: 'swap',
 })
+
+// const code = Roboto_Mono({
+//     variable: '--font-code',
+//     subsets: ['latin'],
+//     display: 'swap',
+// });
 
 type FontConfig = {
     variable: string;
