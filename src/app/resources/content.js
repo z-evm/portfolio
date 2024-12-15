@@ -13,7 +13,7 @@ const person = {
 }
 
 const newsletter = {
-    display: true,
+    display: false,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
     description: <>I occasionally share insights on web3 trends, technology, and design.</>
 }
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:zmcg.dev@proton.me',
     },
 ]
 
@@ -48,9 +48,9 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Full-Stack Developer</>,
-    subline: <>I'm Zac, a passionate full-stack developer dedicated to building innovative solutions. I'm exploring<br/>
-    opportunities in decentralized technology, cloud computing, <br/>
-    and cybersecurity while continously growing my skills and knowledge.</>
+    subline: <>As a driven full-stack developer, I leverage my passion for innovation to craft cutting-edge solutions.<br/>
+    With a focus on decentralized technology and cybersecurity, I'm committed to staying at the forefront of industry trends<br/>
+    and expanding my expertise to deliver exceptional results.</>
 }
 
 const about = {
@@ -71,7 +71,10 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>I'm an Australian junior full-stack developer passionate about solving complex challenges and crafting intuitive digital solutions. My interests include web3, cloud computing, and cybersecurity.</>
+        description: <>With a strong foundation in full-stack development, I'm a junior developer
+        from Australia who excels at tackling complex problems and designing user-centric
+        digital experiences. My professional interests converge on decentralized technology
+        and cybersecurity, driving me to explore the latest advancements and best practices in these fields.</>
     },
     work: {
         display: false, // set to false to hide this section

@@ -4,7 +4,7 @@ import "@/once-ui/tokens/index.scss";
 import classNames from 'classnames';
 
 import { Footer, Header, RouteGuard } from "@/components";
-import { baseURL, effects, style } from '@/app/resources'
+import { baseURL, effects, style } from '@/app/resources';
 
 import { Inter } from 'next/font/google'
 //import { Roboto_Mono } from 'next/font/google';
