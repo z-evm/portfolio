@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/zachary-axel-mcgill/',
     },
     // {
     //     name: 'X',
@@ -49,8 +49,9 @@ const home = {
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Full-Stack Developer</>,
     subline: <>As a driven full-stack developer, I leverage my passion for innovation to craft cutting-edge solutions.<br/>
-    With a focus on decentralized technology and cybersecurity, I'm committed to staying at the forefront of industry trends<br/>
-    and expanding my expertise to deliver exceptional results.</>
+    With a strong interest in decentralized technology and a<br/> growing focus on cybersecurity, I'm committed<br/> 
+    to delivering exceptional results
+    and staying up-to-date<br/> with industry trends.</>
 }
 
 const about = {
@@ -73,8 +74,8 @@ const about = {
         title: 'Introduction',
         description: <>With a strong foundation in full-stack development, I'm a junior developer
         from Australia who excels at tackling complex problems and designing user-centric
-        digital experiences. My professional interests converge on decentralized technology
-        and cybersecurity, driving me to explore the latest advancements and best practices in these fields.</>
+        digital experiences. I'm currently exploring the intersections of decentralized technology
+        and cybersecurity, and I'm excited to develop my skills in these areas through ongoing training and education.</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -114,15 +115,15 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'Ultimo TAFE',
+                name: 'TAFE NSW - Ultimo',
                 description: <>Certificate III in Web Development - Gained essential skills in creating functional and responsive websites.</>,
             },
             {
-                name: 'Petersham TAFE',
+                name: 'TAFE NSW - Petersham',
                 description: <>Certificate IV in Programming - Built foundational coding and problem-solving skills.</>,
             },
             {
-                name: 'Petersham TAFE',
+                name: 'TAFE NSW - Petersham',
                 description: <>Diploma of Advanced Programming - Focused on modern development practices and technologies.</>
             }
         ]
@@ -131,40 +132,56 @@ const about = {
         display: true, // set to false to hide this section
         title: 'Technical skills',
         skills: [
-            // {
-            //     title: 'Full-Stack Development',
-            //     description: <>'Proficient in creating full-stack applications using React Native, Express.js, MongoDB, SQL.'</>
-            // }
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                "title": "Programming & Scripting",
+                "description": "Proficient in Python, JavaScript/TypeScript, and C#. Experienced in using SQL for database management and Solidity for Ethereum-based smart contracts.",
+                "images": [],
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                "title": "Web & Software Development",
+                "description": "Experienced in building responsive UIs with React, React Native, and Next.js. Skilled in backend development using Node.js, Express.js, and .NET, with expertise in MongoDB and SQL databases. Familiar with secure authentication techniques using Identity Framework, JWT, bcrypt, and cryptographic libraries.",
+                "images": [],
+            },
+            {
+                "title": "Tools & Technologies",
+                "description": "Proficient in version control with Git and GitHub. Experienced in cloud services using Azure, UI/UX design with Figma, and testing with NUnit, Jest, and Postman. Skilled in CI/CD automation with GitHub Actions.",
+                "images": [],
+            },
+            {
+                "title": "Networking & Systems",
+                "description": "Knowledgeable in networking fundamentals, virtualization with hypervisors, and cybersecurity basics, including securing systems and applications.",
+                "images": [],
             }
+            // {
+            //     title: 'Figma',
+            //     description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+            //     images: [
+            //         {
+            //             src: '/images/projects/project-01/cover-02.jpg',
+            //             alt: 'Project image',
+            //             width: 16,
+            //             height: 9
+            //         },
+            //         {
+            //             src: '/images/projects/project-01/cover-03.jpg',
+            //             alt: 'Project image',
+            //             width: 16,
+            //             height: 9
+            //         },
+            //     ]
+            // },
+            // {
+            //     title: 'Next.js',
+            //     description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+            //     images: [
+            //         {
+            //             src: '/images/projects/project-01/cover-04.jpg',
+            //             alt: 'Project image',
+            //             width: 16,
+            //             height: 9
+            //         },
+            //     ]
+            // }
         ]
     }
 }
