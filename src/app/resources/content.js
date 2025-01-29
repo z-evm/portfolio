@@ -48,10 +48,9 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Full-Stack Developer</>,
-    subline: <>As a driven full-stack developer, I leverage my passion for innovation to craft cutting-edge solutions.<br/>
+    subline: <>Hi, I'm Zach. As a full-stack developer, I leverage my passion for innovation to craft cutting-edge solutions.<br/>
     With a strong interest in decentralized technology and a<br/> growing focus on cybersecurity, I'm committed<br/> 
-    to delivering exceptional results
-    and staying up-to-date<br/> with industry trends.</>
+    to delivering exceptional results and staying up-to-date<br/> with industry trends.</>
 }
 
 const about = {
@@ -115,16 +114,20 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'TAFE NSW - Ultimo',
-                description: <>Certificate III in Web Development - Gained essential skills in creating functional and responsive websites.</>,
+                name: 'Diploma of Advanced Programming',
+                description: <>Petersham - TAFE - Focused on modern development practices and technologies.</>
             },
             {
-                name: 'TAFE NSW - Petersham',
-                description: <>Certificate IV in Programming - Built foundational coding and problem-solving skills.</>,
+                name: 'Certificate IV in Programming',
+                description: <>Petersham - TAFE - Built foundational coding and problem-solving skills.</>,
             },
             {
-                name: 'TAFE NSW - Petersham',
-                description: <>Diploma of Advanced Programming - Focused on modern development practices and technologies.</>
+                name: 'Certificate III in Web Development',
+                description: <>Ultimo - TAFE - Gained essential skills in creating functional and responsive websites.</>,
+            },
+            {
+                name: 'Certificate IV in Hospitality',
+                description: <>Sydney - Quality Training & Hospitality College - Completed this course while working at Grasshopper Bar & Eating House.</>,
             }
         ]
     },

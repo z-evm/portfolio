@@ -8,6 +8,8 @@ import { baseURL, effects, style } from '@/app/resources';
 
 import { Inter } from 'next/font/google'
 //import { Roboto_Mono } from 'next/font/google';
+//import { Lora } from 'next/font/google';
+//import { Montserrat } from 'next/font/google';
 import { Source_Code_Pro } from 'next/font/google';
 
 import { NextIntlClientProvider } from 'next-intl';
@@ -56,11 +58,18 @@ const primary = Inter({
 	display: 'swap',
 })
 
-// const code = Roboto_Mono({
-//     variable: '--font-code',
+// const primary = Lora({
+//     variable: '--font-primary',
 //     subsets: ['latin'],
-//     display: 'swap',
+//     display: 'swap'
 // });
+
+// const secondary = Montserrat({
+//     variable: '--font-secondary',
+//     subsets: ['latin'],
+//     display: 'swap'
+// });
+
 
 type FontConfig = {
     variable: string;
