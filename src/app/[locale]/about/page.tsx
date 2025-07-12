@@ -206,7 +206,9 @@ export default function About(
                             direction="column"
                             textVariant="body-default-l"
                             fillWidth gap="m" marginBottom="xl">
-                            {about.intro.description}
+                            <Text className={styles.textAlign}>
+                                {about.intro.description}
+                            </Text>
                         </Flex>
                     )}
 
