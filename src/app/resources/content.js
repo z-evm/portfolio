@@ -72,7 +72,7 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>With formal training in advanced programming, cybersecurity, web development and networking, I'm a junior developer
-        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI, decentralized systems.</>
+        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI and decentralized systems.</>
     },
     work: {
         display: false, // set to false to hide this section
