@@ -73,7 +73,7 @@ const about = {
         title: 'Introduction',
         description: <>With formal training in advanced programming, cybersecurity, web development and networking, I'm a junior developer
         from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI, decentralized systems.
-        I'm open to roles in development, cyber, networking, or tech support where I can grow and contribute.</>
+        I'm open to roles in development, cyber, or networking where I can grow and contribute.</>
     },
     work: {
         display: false, // set to false to hide this section
