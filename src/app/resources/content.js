@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Full-Stack Developer',
+    role:      'Future-Focused Technologist | Dev, Cyber & Decentralized Systems Enthusiast',
     avatar:    '/images/avatar.jpg',
     location:  'Australia/Sydney',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -29,32 +29,32 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/in/zachary-axel-mcgill/',
+        link: 'https://www.linkedin.com/in/zac-mcgill/',
     },
     // {
     //     name: 'X',
     //     icon: 'x',
     //     link: '',
     // },
-    {
-        name: 'Email',
-        icon: 'email',
-        link: 'mailto:zmcg.dev@proton.me',
-    },
+    // {
+    //     name: 'Email',
+    //     icon: 'email',
+    //     link: 'mailto:zmcg.dev@proton.me',
+    // },
 ]
 
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Full-Stack Developer</>,
-    subline: <>Hi, I'm Zach. As a full-stack developer, I leverage my passion for innovation to craft cutting-edge solutions.<br/>
-    With a strong interest in decentralized technology and a<br/> growing focus on cybersecurity, I'm committed<br/> 
-    to delivering exceptional results and staying up-to-date<br/> with industry trends.</>
+    headline: <>Future-Focused Technologist | Dev, Cyber & Decentralized Systems Enthusiast</>,
+    subline: <>Hi, I'm Zach. I'm a future-focused technologist exploring the edges of full-stack development, decentralized systems, and<br/> 
+     cybersecurity. I'm passionate about building secure, innovative<br/> solutions and currently experimenting with AI agent
+    frameworks<br/> and IPFS-based hosting. I'm committed to continously learning<br/> and staying ahead of emerging tech trends.</>
 }
 
 const about = {
-    label: 'About',
+    label: 'Work in Progress',
     title: 'About me',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
@@ -71,10 +71,9 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>With a strong foundation in full-stack development, I'm a junior developer
-        from Australia who excels at tackling complex problems and designing user-centric
-        digital experiences. I'm currently exploring the intersections of decentralized technology
-        and cybersecurity, and I'm excited to develop my skills in these areas through ongoing training and education.</>
+        description: <>With formal training in advanced programming, cybersecurity, web development and networking, I'm a junior developer
+        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI, decentralized systems, and <br/>
+        secure design principles - and I'm always learning. I'm open to roles<br/> in development, cyber, networking, or tech support where I can grow<br/> and contribute.</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -114,20 +113,32 @@ const about = {
         title: 'Studies',
         institutions: [
             {
+                name: 'IT Essentials',
+                description: <>Cisco Networking Academy - Completed training in IT fundamentals.</>
+            },
+            {
+                name: 'CCNA: Introduction to Networks',
+                description: <>Cisco Networking Academy - Developed skills in networking fundamentals.</>
+            },
+            {
+                name: 'Certificate IV in Cyber Security',
+                description: <>Blacktown - TAFE - Learned system and network security and SOC operations.</>
+            },
+            {
                 name: 'Diploma of Advanced Programming',
                 description: <>Petersham - TAFE - Focused on modern development practices and technologies.</>
             },
             {
                 name: 'Certificate IV in Programming',
-                description: <>Petersham - TAFE - Built foundational coding and problem-solving skills.</>,
+                description: <>Petersham - TAFE - Built foundational coding and problem-solving skills.</>
             },
             {
                 name: 'Certificate III in Web Development',
-                description: <>Ultimo - TAFE - Gained essential skills in creating functional and responsive websites.</>,
+                description: <>Ultimo - TAFE - Gained skills in creating functional and responsive websites.</>
             },
             {
                 name: 'Certificate IV in Hospitality',
-                description: <>Sydney - Quality Training & Hospitality College - Completed this course while working at Grasshopper Bar & Eating House.</>,
+                description: <>Sydney - Quality Training & Hospitality College - Completed this course at work.</>
             }
         ]
     },
@@ -137,22 +148,32 @@ const about = {
         skills: [
             {
                 "title": "Programming & Scripting",
-                "description": "Proficient in Python, JavaScript/TypeScript, and C#. Experienced in using SQL for database management and Solidity for Ethereum-based smart contracts.",
+                "description": "JavaScript, Python, Bash, Shell, SQL.",
                 "images": [],
             },
             {
-                "title": "Web & Software Development",
-                "description": "Experienced in building responsive UIs with React, React Native, and Next.js. Skilled in backend development using Node.js, Express.js, and .NET, with expertise in MongoDB and SQL databases. Familiar with secure authentication techniques using Identity Framework, JWT, bcrypt, and cryptographic libraries.",
+                "title": "Web Development",
+                "description": "HTML5, CSS3, React, Node.js, Express, REST API's, Figma.",
                 "images": [],
             },
             {
-                "title": "Tools & Technologies",
-                "description": "Proficient in version control with Git and GitHub. Experienced in cloud services using Azure, UI/UX design with Figma, and testing with NUnit, Jest, and Postman. Skilled in CI/CD automation with GitHub Actions.",
+                "title": "Software & Systems Development",
+                "description": "C#, .NET, Git, Agile Development, Test-Driven Development.",
                 "images": [],
             },
             {
                 "title": "Networking & Systems",
-                "description": "Knowledgeable in networking fundamentals, virtualization with hypervisors, and cybersecurity basics, including securing systems and applications.",
+                "description": "Cisco networking fundamentals, TCP/IP, DNS, DHCP, Windows & Linux system administration, Virtualization.",
+                "images": [],
+            },
+            {
+                "title": "Cybersecurity & SOC Tools",
+                "description": "SIEM (Splunk), Wireshark, vulnerability assessment, incident response, firewall configuration, security auditing.",
+                "images": [],
+            },
+            {
+                "title": "Dev Tools & Platforms",
+                "description": "VS Code, Visual Studio 2022, PyCharm, GitHub, Docker, Postman, Vercel, Supabase, Azure, Android Studio, Obsidian.",
                 "images": [],
             }
             // {
@@ -284,4 +305,4 @@ const gallery = {
     ]
 }
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, work, blog, gallery };
