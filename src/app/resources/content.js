@@ -72,8 +72,8 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>With formal training in advanced programming, cybersecurity, web development and networking, I'm a junior developer
-        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI, decentralized systems, and <br/>
-        secure design principles - and I'm always learning. I'm open to roles<br/> in development, cyber, networking, or tech support where I can grow<br/> and contribute.</>
+        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI, decentralized systems, and<br/> 
+        secure design principles - and I'm always learning new things.<br/> I'm open to roles in development, cyber, networking, or tech support<br/> where I can grow and contribute.</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -163,7 +163,7 @@ const about = {
             },
             {
                 "title": "Networking & Systems",
-                "description": "Cisco networking fundamentals, TCP/IP, DNS, DHCP, Windows & Linux system administration, Virtualization.",
+                "description": "Cisco networking fundamentals, TCP/IP, DNS, DHCP, Windows & Linux system administration, virtualization.",
                 "images": [],
             },
             {
