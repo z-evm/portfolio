@@ -40,15 +40,15 @@ const effects = {
 }
 
 const style = {
-    theme:       'dark',         // dark | light
-    neutral:     'slate',        // sand | gray | slate
-    brand:       'emerald',      // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'violet',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    solid:       'color',        // color | contrast
-    solidStyle:  'flat',         // flat | plastic
-    border:      'playful',      // rounded | playful | conservative
-    surface:     'filled',       // filled | translucent
-    transition:  'all'           // all | micro | macro
+  theme: "dark",
+  brand: "green",
+  accent: "aqua",
+  neutral: "gray",
+  border: "rounded",
+  solid: "color",
+  solidStyle: "plastic",
+  surface: "filled",
+  transition: "all",
 }
 
 const display = {

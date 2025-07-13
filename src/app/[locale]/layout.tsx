@@ -58,19 +58,6 @@ const primary = Inter({
 	display: 'swap',
 })
 
-// const primary = Lora({
-//     variable: '--font-primary',
-//     subsets: ['latin'],
-//     display: 'swap'
-// });
-
-// const secondary = Montserrat({
-//     variable: '--font-secondary',
-//     subsets: ['latin'],
-//     display: 'swap'
-// });
-
-
 type FontConfig = {
     variable: string;
 };
