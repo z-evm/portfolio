@@ -98,7 +98,7 @@ export const Header = () => {
                         background="surface" border="neutral-medium" borderStyle="solid-1" radius="m-4" shadow="l"
                         padding="4"
                         justifyContent="center">
-                        <Flex
+                        {/* <Flex
                             gap="4"
                             textVariant="body-default-s">
                             { routes['/'] && (
@@ -141,7 +141,7 @@ export const Header = () => {
                                     <Flex paddingX="2" hide="s">{gallery.label}</Flex>
                                 </ToggleButton>
                             )}
-                        </Flex>
+                        </Flex> */}
                     </Flex>
                 </Flex>
                 <Flex fillWidth justifyContent="flex-end" alignItems="center">
