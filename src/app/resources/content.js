@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Future-Focused Technologist | Dev, Cyber & Decentralized Systems Enthusiast',
+    role:      'Full Stack Dev | Cybersecurity-Aware | Exploring Web3 & Decentralized Systems',
     avatar:    '/images/avatar.jpg',
     location:  'Australia/Sydney',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -47,7 +47,7 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Future-Focused Technologist | Dev, Cyber & Decentralized Systems Enthusiast</>,
+    headline: <>Full Stack Dev | Cybersecurity-Aware | Exploring Web3 & Decentralized Systems</>,
     subline: <>Hi, I'm Zach. I'm a future-focused technologist exploring the edges of full-stack development, decentralized systems, and<br/> 
      cybersecurity. I'm passionate about building secure, innovative<br/> solutions and currently experimenting with AI agent
     frameworks<br/> and IPFS-based hosting. I'm committed to continously learning<br/> and staying ahead of emerging tech trends.</>
@@ -71,8 +71,9 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>With formal training in advanced programming, cybersecurity, web development and networking, I'm a junior developer
-        from Australia passionate about solving problems and building meaningful digital experiences. I'm actively exploring AI and decentralized systems.</>
+        description: <>Junior full stack developer with formal training in advanced programming, cybersecurity, networking, and web development. 
+        I’m passionate about building secure, efficient digital systems — from full stack apps to smart contracts. My technical toolkit spans frontend and backend development, Linux (WSL2), scripting, and practical security principles. 
+        I’m particularly interested in how decentralized technologies like Ethereum, cybersecurity, and AI intersect — and I actively build, experiment, and learn at that edge.</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -121,7 +122,7 @@ const about = {
             },
             {
                 name: 'Certificate IV in Cyber Security',
-                description: <>Blacktown - TAFE - Learned system and network security and SOC operations.</>
+                description: <>Blacktown - TAFE - Trained in system & network security plus SOC operations.</>
             },
             {
                 name: 'Diploma of Advanced Programming',
@@ -137,7 +138,7 @@ const about = {
             },
             {
                 name: 'Certificate IV in Hospitality',
-                description: <>Sydney - Quality Training & Hospitality College - Completed this course at work.</>
+                description: <>Sydney - Quality Training & Hospitality College - Learned fundamental skills.</>
             }
         ]
     },
