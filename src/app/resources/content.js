@@ -58,7 +58,7 @@ const about = {
     title: 'About me',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
-        display: true,
+        display: false,
         subItems: false
     },
     avatar: {
@@ -71,9 +71,9 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Junior full stack developer with formal training in advanced programming, cybersecurity, networking, and web development. 
-        I’m passionate about building secure, efficient digital systems — from full stack apps to smart contracts. My technical toolkit spans frontend and backend development, Linux (WSL2), scripting, and practical security principles. 
-        I’m particularly interested in how decentralized technologies like Ethereum, cybersecurity, and AI intersect — and I actively build, experiment, and learn at that edge.</>
+        description: <>Full stack developer with formal training in advanced programming, cybersecurity, networking, and web development. 
+        I’m passionate about building secure, efficient digital systems — from full stack apps to smart contracts. My technical toolkit spans frontend and backend development, scripting, and practical security principles. 
+        I’m particularly interested in how decentralized technologies like Ethereum, IPFS, cybersecurity, and<br/> A.I intersect — and I actively build, experiment, and learn at that edge.</>
     },
     work: {
         display: false, // set to false to hide this section
@@ -114,31 +114,31 @@ const about = {
         institutions: [
             {
                 name: 'IT Essentials',
-                description: <>Cisco Networking Academy - Completed training in IT fundamentals.</>
+                description: <>Cisco Networking Academy - Completed foundational training in IT systems, hardware, and troubleshooting.</>
             },
             {
                 name: 'CCNA: Introduction to Networks',
-                description: <>Cisco Networking Academy - Developed skills in networking fundamentals.</>
+                description: <>Cisco Networking Academy - Developed hands-on skills in routing, switching, <br/>and network fundamentals.</>
             },
             {
                 name: 'Certificate IV in Cyber Security',
-                description: <>Blacktown - TAFE - Trained in system & network security plus SOC operations.</>
+                description: <>Blacktown - TAFE - Trained in system/network security, threat detection, and <br/>SOC operations.</>
             },
             {
                 name: 'Diploma of Advanced Programming',
-                description: <>Petersham - TAFE - Focused on modern development practices and technologies.</>
+                description: <>Petersham - TAFE - Focused on full-stack development, modern programming practices, and secure coding.</>
             },
             {
                 name: 'Certificate IV in Programming',
-                description: <>Petersham - TAFE - Built foundational coding and problem-solving skills.</>
+                description: <>Petersham - TAFE - Built strong foundations in object-oriented programming and software development life cycles.</>
             },
             {
                 name: 'Certificate III in Web Development',
-                description: <>Ultimo - TAFE - Gained skills in creating functional and responsive websites.</>
+                description: <>Ultimo - TAFE - Gained practical experience in designing and building responsive, accessible websites.</>
             },
             {
                 name: 'Certificate IV in Hospitality',
-                description: <>Sydney - Quality Training & Hospitality College - Learned fundamental skills.</>
+                description: <>Sydney - Quality Training & Hospitality College - Learned customer service, team leadership, and operations management.</>
             }
         ]
     },
@@ -147,33 +147,28 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                "title": "Programming & Scripting",
-                "description": "JavaScript, Python, Bash, Shell, SQL.",
+                "title": "Programming, Scripting & Development",
+                "description": "Familiar with Git, Agile methodologies, JavaScript, TypeScript, Solidity, C#, Python, Bash, PowerShell, SQL, MongoDB, test-driven development",
                 "images": [],
             },
             {
                 "title": "Web Development",
-                "description": "HTML5, CSS3, React, Node.js, Express, REST API's, Figma.",
+                "description": "HTML5, CSS3, Tailwind CSS (basic), React, Next.js, Node.js, Express, RESTful APIs, Figma, Bootstrap",
                 "images": [],
             },
             {
-                "title": "Software & Systems Development",
-                "description": "C#, .NET, Git, Agile Development, Test-Driven Development.",
+                "title": "Networking & Infrastructure",
+                "description": "Configured Cisco routers/switches, IP addressing, TCP/IP, DNS, DHCP, hands-on experience with Windows & Linux system administration, virtualization (VirtualBox, WSL2, Hyper-V)",
                 "images": [],
             },
             {
-                "title": "Networking & Systems",
-                "description": "Cisco networking fundamentals, TCP/IP, DNS, DHCP, Windows & Linux system administration, virtualization.",
+                "title": "Cybersecurity & SOC Operations",
+                "description": "Experience with SIEM (Splunk), Wireshark, vulnerability scanning platforms (Nessus, OpenVAS), firewall configuration, log analysis, incident response, OWASP Top 10, NIST Cybersecurity Framework, MITRE ATT&CK, and CIS Controls",
                 "images": [],
             },
             {
-                "title": "Cybersecurity & SOC Tools",
-                "description": "SIEM (Splunk), Wireshark, vulnerability assessment, incident response, firewall configuration, security auditing.",
-                "images": [],
-            },
-            {
-                "title": "Dev Tools & Platforms",
-                "description": "VS Code, Visual Studio 2022, PyCharm, GitHub, Docker, Postman, Vercel, Supabase, Azure, Android Studio, Obsidian.",
+                "title": "Dev Ops & Platforms",
+                "description": "GitHub Actions, Jest, Docker, VS Code, Visual Studio 2022, Postman, Vercel, Supabase, Azure, SSQL, Obsidian MD, and Android Studios",
                 "images": [],
             }
             // {
